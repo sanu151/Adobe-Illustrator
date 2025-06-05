@@ -191,9 +191,9 @@ One of the most frequently used modifier keys in Adobe Illustrator, dramatically
 
 In essence, the Shift key in Adobe Illustrator acts as a **precision modifier** and a **selection enhancer**, making it indispensable for efficient and accurate design work. Mastering its various uses will significantly speed up your workflow.
 
-The **Ctrl key (Command key on Mac)** 
+### The **Ctrl key (Command key on Mac)** 
 
-![image](https://github.com/user-attachments/assets/3b49d31d-98e8-46f8-9484-ca5bff5889f6)
+![image](https://github.com/user-attachments/assets/96f8b2e2-f3e4-4578-8aee-0a3bab92ea02)
 
 Is another powerhouse modifier, similar to the Shift key, but often used for different types of actions, particularly those related to **menus, commands, and visibility**. Mastering its use is fundamental for efficient workflow.
 
