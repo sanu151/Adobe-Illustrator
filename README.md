@@ -66,3 +66,74 @@ Illustrator is widely used for:
 * **Panel:** On the right side, showing "Properties," "Layers," and "Libraries." These panels provide detailed options and controls related to selected objects, layer management, and asset organization. In the image, the "Layers" panel is expanded, showing "Layer 1."
 * **Artboard:** The central white area where you create and arrange your artwork. The text "ARTBOARD" is written on it.
 
+### Toolbar in Adobe Illustrator 2020
+
+![image](https://github.com/user-attachments/assets/edba109b-5be0-4634-b2ec-402239e2cc12)
+
+
+**Toolbar Structure:**
+The image displays the standard vertical layout of the Illustrator toolbar. Tools are often grouped, and many have a small triangle in the bottom-right corner,
+![image](https://github.com/user-attachments/assets/8b573274-ea72-4382-8d86-412e4dca3909)
+indicating that there are **nested tools** beneath them (which you can access by clicking and holding the tool icon).
+
+**Key Tool Categories and Examples (as labeled in your image):**
+
+1.  **Selection Tools:**
+    * **Selection Tool (V):** The primary tool for selecting entire objects.
+    * **Direct Selection Tool (A):** Crucial for selecting and manipulating individual anchor points, segments, and handles of a path.
+    * **Group Selection Tool:** Selects objects within a group.
+    * **Magic Wand (Y):** Selects objects based on similar attributes (fill color, stroke color, etc.).
+    * **Selection Lasso:** Allows freehand selection of objects or anchor points.
+
+2.  **Drawing Tools (Path Creation):**
+    * **Pen Tool (P):** The most fundamental tool for precise drawing of straight lines and curves by placing anchor points.
+        * *Nested:* Add Anchor Point Tool, Delete Anchor Point Tool, Anchor Point Tool (Shift+C - for converting anchor points).
+    * **Freeform Pen:** For more organic, freehand drawing.
+    * **Line Tool:** Draws straight lines.
+    * **Arc Tool, Spiral Tool, Rectangle Tool, Rounded Rectangle Tool, Ellipse Tool, Polygon Tool, Star Tool:** Basic shape tools.
+    * **Shaper Tool:** Combines and creates shapes in a more intuitive way.
+
+3.  **Painting and Artistic Tools:**
+    * **Brush Tool:** For freehand drawing with artistic brushes.
+    * **Pencil Tool, Blob Brush Tool:** Other freehand drawing tools.
+
+4.  **Text and Typography Tools:**
+    * **Type Tool (T):** For creating and editing text.
+    * *Nested:* Area Type Tool, Type on a Path Tool, Vertical Type Tool, Vertical Area Type Tool, Vertical Type on a Path Tool, Touch Type Tool.
+
+5.  **Transformation and Manipulation Tools:**
+    * **Rotate Tool (R):** Rotates objects.
+    * **Reflect Tool (O):** Creates mirror images of objects.
+    * **Scale Tool:** Resizes objects.
+    * **Shear Tool:** Skews objects.
+    * **Width Tool (Shift+W):** Adjusts the width of strokes.
+    * **Shape Builder Tool (Shift+M):** Intuitively combines, subtracts, and divides overlapping shapes.
+    * **Perspective Grid Tool:** For drawing in perspective.
+    * **Puppet Warp Tool:** Distorts parts of an object naturally.
+
+6.  **Cutting and Dividing Tools:**
+    * **Eraser Tool (Shift+E):** Erases parts of vector objects.
+    * **Scissors Tool (C):** Cuts paths at anchor points or segments.
+    * **Knife Tool:** Slices objects freehand.
+
+7.  **Color and Measurement Tools:**
+    * **Eyedropper Tool (I):** Samples colors and attributes from objects.
+    * **Measure Tool, Gradient Tool (G), Blend Tool (W):** For applying gradients and blending objects.
+
+8.  **Navigation and View Tools:**
+    * **Artboard Tool (Shift+O):** For creating and managing multiple artboards.
+    * **Hand Tool (H):** Pans (moves) the artboard view.
+    * **Zoom Tool (Z):** Zooms in and out of the artboard.
+
+9.  **Specialized Tools (some less common):**
+    * Symbol Spraying Tool, Column Graph Tool (part of Diagram Tools), Slice Tool.
+
+**Color Controls (Bottom of Toolbar):**
+* **Fill Colour:** The color inside an object.
+* **Stroke Colour:** The color of the object's outline.
+* Buttons for quickly switching between fill/stroke, applying default black/white, or no fill/stroke.
+* Options for **Fill with Paint, Fill with Gradient, Fill with Transparency.**
+
+**Drawing Modes (Bottom of Toolbar):**
+* **Determines whether new objects should be created inside or out of previous objects:** These icons typically relate to drawing modes like "Draw Normal," "Draw Behind," and "Draw Inside," which control how new shapes interact with existing ones, especially useful for clipping masks.
+
