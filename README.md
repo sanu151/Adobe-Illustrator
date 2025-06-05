@@ -73,6 +73,7 @@ Illustrator is widely used for:
 
 **Toolbar Structure:**
 The image displays the standard vertical layout of the Illustrator toolbar. Tools are often grouped, and many have a small triangle in the bottom-right corner, indicating that there are **nested tools** beneath them (which you can access by clicking and holding the tool icon).
+
 ![image](https://github.com/user-attachments/assets/8b573274-ea72-4382-8d86-412e4dca3909)
 
 **Key Tool Categories and Examples (as labeled in your image):**
