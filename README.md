@@ -76,7 +76,7 @@ The image displays the standard vertical layout of the Illustrator toolbar. Tool
 
 ![image](https://github.com/user-attachments/assets/8b573274-ea72-4382-8d86-412e4dca3909)
 
-**Key Tool Categories and Examples (as labeled in your image):**
+**Key Tool Categories and Examples (as labeled in the image):**
 
 1.  **Selection Tools:**
     * **Selection Tool (V):** The primary tool for selecting entire objects.
