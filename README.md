@@ -55,21 +55,14 @@ Illustrator is widely used for:
 * **Technical Drawings and Diagrams:** Creating precise and clear technical illustrations.
 * **Fashion and Textile Design:** Creating patterns and designs for clothing and fabrics.
 
-### Pricing:
-
-Adobe Illustrator is available through a subscription model as part of Adobe Creative Cloud. Pricing can vary based on individual, student/teacher, or team plans.
-
-* **Individual Plan:** Typically priced monthly or annually (with a monthly billing option). As of early June 2025, for individuals in India, it's approximately ₹733.96/month (including GST) for the annual billed monthly plan.
-* **Creative Cloud All Apps Plan:** Includes Illustrator along with 20+ other Adobe creative apps (like Photoshop, Premiere Pro, etc.). This is generally a more cost-effective option if you need multiple Adobe applications. For individuals in India, this plan is around ₹1,915.14/month (including GST).
-* **Student and Teacher Plan:** Offers significant discounts (e.g., over 65% off) on the Creative Cloud All Apps plan.
-* **Teams Plan:** Designed for businesses, offering features like centralized license management and increased cloud storage.
-
-A **7-day free trial** is often available to try out the full version of Illustrator before subscribing.
-
-### Latest Version:
-
-As of the current information, the latest version of Adobe Illustrator is **Illustrator 2025**, which was released on **October 14, 2024**. Adobe continuously updates Illustrator with new features, performance enhancements, and bug fixes, often incorporating advancements in AI technology.
-
-
+### Adobe Illustrator interface
 
 ![image](https://github.com/user-attachments/assets/55eac6cc-855d-4938-86eb-9edc4ad541c9)
+
+
+* **Menu Bar:** At the very top, containing options like "File," "Edit," "Object," "Type," "Select," "Effect," "View," "Window," and "Help." This is where you access commands and settings for your document and the application.
+* **File name with detail:** Below the menu bar, showing "Untitled-3 @ 22.96 % (RGB/Preview)." This indicates the current file name, the zoom level, and the color mode (RGB) and preview mode.
+* **Tool Bar:** On the left side, containing various tools for drawing, selecting, transforming, and editing objects. You can see icons for selection tools, drawing tools (like Pen and Rectangle), type tools, and color swatches.
+* **Panel:** On the right side, showing "Properties," "Layers," and "Libraries." These panels provide detailed options and controls related to selected objects, layer management, and asset organization. In the image, the "Layers" panel is expanded, showing "Layer 1."
+* **Artboard:** The central white area where you create and arrange your artwork. The text "ARTBOARD" is written on it.
+
