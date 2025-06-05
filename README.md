@@ -323,3 +323,100 @@ Many tools have a secondary function that can be accessed by holding down **Alt 
 * **Isolate Group:** Double-clicking a group normally enters Isolation Mode. Sometimes, holding **Alt (Option)** while double-clicking can offer slightly different isolation behaviors or direct access to specific group members.
 
 The Alt (Option) key is a powerful shortcut for performing variations of standard operations, often related to creating copies, symmetrical effects, or accessing inverse/alternative tool functions. Integrating it into your workflow will significantly enhance your speed and flexibility in Adobe Illustrator.
+
+
+### Comprehensive cheat sheet of common Adobe Illustrator shortcut keys
+
+**Important Notes:**
+
+* **Ctrl (Windows) / Cmd (Mac):** These keys are interchangeable for the majority of shortcuts.
+* **Alt (Windows) / Option (Mac):** These keys are also largely interchangeable.
+* **Shift:** Used for constraining, adding to selections, or for larger increments.
+* **Context-sensitive:** Some shortcuts might behave slightly differently depending on the active tool or selected object.
+* **Customization:** You can customize many of these shortcuts in Illustrator by going to `Edit > Keyboard Shortcuts...`
+* This table focuses on the *most frequently used* shortcuts. Illustrator has hundreds!
+
+---
+
+### Adobe Illustrator Shortcut Key Cheat Sheet
+
+| Category                | Action                                     | Windows Shortcut               | Mac Shortcut                    |
+| :---------------------- | :----------------------------------------- | :----------------------------- | :------------------------------ |
+| **General / File** | New Document                               | `Ctrl + N`                     | `Cmd + N`                       |
+|                         | Open Document                              | `Ctrl + O`                     | `Cmd + O`                       |
+|                         | Save Document                              | `Ctrl + S`                     | `Cmd + S`                       |
+|                         | Save As                                    | `Ctrl + Shift + S`             | `Cmd + Shift + S`               |
+|                         | Close Document                             | `Ctrl + W`                     | `Cmd + W`                       |
+|                         | Undo                                       | `Ctrl + Z`                     | `Cmd + Z`                       |
+|                         | Redo                                       | `Ctrl + Shift + Z`             | `Cmd + Shift + Z`               |
+|                         | Cut                                        | `Ctrl + X`                     | `Cmd + X`                       |
+|                         | Copy                                       | `Ctrl + C`                     | `Cmd + C`                       |
+|                         | Paste                                      | `Ctrl + V`                     | `Cmd + V`                       |
+|                         | Paste in Front                             | `Ctrl + F`                     | `Cmd + F`                       |
+|                         | Paste in Back                              | `Ctrl + B`                     | `Cmd + B`                       |
+|                         | Paste in Place                             | `Ctrl + Shift + V`             | `Cmd + Shift + V`               |
+|                         | Duplicate (drag)                           | `Alt + Drag`                   | `Option + Drag`                 |
+|                         | Duplicate & Constrain (drag)               | `Alt + Shift + Drag`           | `Option + Shift + Drag`         |
+|                         | Transform Again                            | `Ctrl + D`                     | `Cmd + D`                       |
+| **Selection** | Selection Tool                             | `V`                            | `V`                             |
+|                         | Direct Selection Tool                      | `A`                            | `A`                             |
+|                         | Group Selection Tool (nested under A)      | (Click & Hold A)               | (Click & Hold A)                |
+|                         | Magic Wand Tool                            | `Y`                            | `Y`                             |
+|                         | Lasso Tool                                 | `Q`                            | `Q`                             |
+|                         | Add to Selection                           | `Shift + Click`                | `Shift + Click`                 |
+|                         | Temporarily switch to Selection Tool       | `Ctrl (hold)`                  | `Cmd (hold)`                    |
+| **Object Arrangement** | Group                                      | `Ctrl + G`                     | `Cmd + G`                       |
+|                         | Ungroup                                    | `Ctrl + Shift + G`             | `Cmd + Shift + G`               |
+|                         | Bring to Front                             | `Ctrl + Shift + ]`             | `Cmd + Shift + ]`               |
+|                         | Bring Forward                              | `Ctrl + ]`                     | `Cmd + ]`                       |
+|                         | Send Backward                              | `Ctrl + [`                     | `Cmd + [`                       |
+|                         | Send to Back                               | `Ctrl + Shift + [`             | `Cmd + Shift + [`               |
+|                         | Lock Selection                             | `Ctrl + 2`                     | `Cmd + 2`                       |
+|                         | Unlock All                                 | `Ctrl + Alt + 2`               | `Cmd + Option + 2`              |
+|                         | Hide Selection                             | `Ctrl + 3`                     | `Cmd + 3`                       |
+|                         | Show All                                   | `Ctrl + Alt + 3`               | `Cmd + Option + 3`              |
+| **Path & Drawing** | Pen Tool                                   | `P`                            | `P`                             |
+|                         | Add Anchor Point Tool                      | `+` (or nested under P)        | `+` (or nested under P)         |
+|                         | Delete Anchor Point Tool                   | `-` (or nested under P)        | `-` (or nested under P)         |
+|                         | Anchor Point Tool (convert/adjust handles) | `Shift + C`                    | `Shift + C`                     |
+|                         | Pencil Tool                                | `N`                            | `N`                             |
+|                         | Eraser Tool                                | `Shift + E`                    | `Shift + E`                     |
+|                         | Scissors Tool                              | `C`                            | `C`                             |
+|                         | Shape Builder Tool                         | `Shift + M`                    | `Shift + M`                     |
+|                         | Join (paths/points)                        | `Ctrl + J`                     | `Cmd + J`                       |
+|                         | Average (points)                           | `Ctrl + Alt + J`               | `Cmd + Option + J`              |
+| **Transformations** | Scale Tool                                 | `S`                            | `S`                             |
+|                         | Rotate Tool                                | `R`                            | `R`                             |
+|                         | Reflect Tool                               | `O`                            | `O`                             |
+|                         | Constrain Angle (Rotate/Drag)              | `Shift`                        | `Shift`                         |
+|                         | Constrain Proportions (Scale)              | `Shift`                        | `Shift`                         |
+| **Appearance & Color** | Swap Fill and Stroke                       | `Shift + X`                    | `Shift + X`                     |
+|                         | Default Fill and Stroke (Black/White)      | `D`                            | `D`                             |
+|                         | No Fill/Stroke                             | `/`                            | `/`                             |
+|                         | Eyedropper Tool                            | `I`                            | `I`                             |
+|                         | Gradient Tool                              | `G`                            | `G`                             |
+|                         | Mesh Tool                                  | `U`                            | `U`                             |
+| **Text / Typography** | Type Tool                                  | `T`                            | `T`                             |
+|                         | Character Panel                            | `Ctrl + T`                     | `Cmd + T`                       |
+|                         | Paragraph Panel                            | `Ctrl + Shift + T`             | `Cmd + Shift + T`               |
+|                         | Create Outlines (text to paths)            | `Ctrl + Shift + O`             | `Cmd + Shift + O`               |
+|                         | Increase Font Size                         | `Ctrl + Shift + >`             | `Cmd + Shift + >`               |
+|                         | Decrease Font Size                         | `Ctrl + Shift + <`             | `Cmd + Shift + <`               |
+|                         | Increase/Decrease Kerning/Tracking         | `Alt + Left/Right Arrow`       | `Option + Left/Right Arrow`     |
+|                         | Increase/Decrease Leading                  | `Alt + Up/Down Arrow`          | `Option + Up/Down Arrow`        |
+| **View & Navigation** | Fit Artboard in Window                     | `Ctrl + 0`                     | `Cmd + 0`                       |
+|                         | Actual Size (100% Zoom)                    | `Ctrl + 1`                     | `Cmd + 1`                       |
+|                         | Zoom In                                    | `Ctrl + +`                     | `Cmd + +`                       |
+|                         | Zoom Out                                   | `Ctrl + -`                     | `Cmd + -`                       |
+|                         | Toggle Outline/Preview Mode                | `Ctrl + Y`                     | `Cmd + Y`                       |
+|                         | Hand Tool                                  | `H` (or hold Spacebar)         | `H` (or hold Spacebar)          |
+|                         | Zoom Tool                                  | `Z`                            | `Z`                             |
+|                         | Show/Hide Rulers                           | `Ctrl + R`                     | `Cmd + R`                       |
+|                         | Show/Hide Guides                           | `Ctrl + ;`                     | `Cmd + ;`                       |
+|                         | Show/Hide Grid                             | `Ctrl + '`                     | `Cmd + '`                       |
+|                         | Toggle Smart Guides                        | `Ctrl + U`                     | `Cmd + U`                       |
+|                         | Toggle Hide Edges                          | `Ctrl + H`                     | `Cmd + H`                       |
+| **Special Features** | Make Clipping Mask                         | `Ctrl + 7`                     | `Cmd + 7`                       |
+|                         | Release Clipping Mask                      | `Ctrl + Alt + 7`               | `Cmd + Option + 7`              |
+
+---
