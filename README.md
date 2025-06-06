@@ -429,6 +429,9 @@ One of the most fundamental and frequently used tools. It's the primary way you 
 
 You can select the Selection tool in the toolbar by clicking its icon, which looks like a **solid black arrow**. Its keyboard shortcut is simply the letter **`V`**.
 
+![image](https://github.com/user-attachments/assets/f4da7105-bbe9-4160-87ec-1b3555267a1c)
+
+
 Here's a breakdown of what the Selection tool does and how to use it effectively:
 
 ### What it Does:
