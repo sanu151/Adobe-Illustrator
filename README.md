@@ -434,7 +434,7 @@ You can select the Selection tool in the toolbar by clicking its icon, which loo
 
 Here's a breakdown of what the Selection tool does and how to use it effectively:
 
-### What it Does:
+#### What it Does:
 
 The Selection tool allows you to:
 
@@ -446,7 +446,7 @@ The Selection tool allows you to:
 6.  **Group/Ungroup objects:** Combine multiple objects into a single unit or separate them.
 7.  **Access bounding box controls:** Once an object is selected, a bounding box appears around it, providing handles for transformation.
 
-### How to Use the Selection Tool:
+#### How to Use the Selection Tool:
 
 1.  **Selecting a Single Object:**
     * Click directly on the object you want to select. Its path will highlight, and a bounding box will appear around it.
@@ -484,7 +484,7 @@ The Selection tool allows you to:
     * Select the object(s).
     * Hold `Ctrl` (Windows) or `Cmd` (Mac) and drag a middle-side handle of the bounding box. This will skew the object.
 
-### Contrast with Direct Selection Tool:
+#### Contrast with Direct Selection Tool:
 
 It's crucial to understand the difference between the **Selection Tool (V)** and the **Direct Selection Tool (A)**:
 
@@ -504,7 +504,7 @@ You can select the Direct Selection tool in the toolbar by clicking its icon, wh
 
 Here's a detailed breakdown of what the Direct Selection tool does and how to use it effectively:
 
-### What it Does:
+#### What it Does:
 
 The Direct Selection tool allows you to:
 
@@ -514,7 +514,7 @@ The Direct Selection tool allows you to:
 4.  **Reshape paths:** By moving anchor points and adjusting direction handles, you can precisely alter the form of any vector object.
 5.  **Select specific parts of a grouped object:** Unlike the Selection tool, the Direct Selection tool can select individual components *within* a group without ungrouping the entire group.
 
-### How to Use the Direct Selection Tool:
+#### How to Use the Direct Selection Tool:
 
 1.  **Selecting a Single Anchor Point:**
     * Click directly on the anchor point you want to select. It will turn solid, while unselected anchor points remain hollow.
@@ -539,7 +539,7 @@ The Direct Selection tool allows you to:
 6.  **Editing Objects within Groups:**
     * Even if an object is part of a group, you can use the Direct Selection tool to click directly on an anchor point or segment of that object. This allows you to edit that specific part of the grouped object without having to first ungroup it.
 
-### Common Uses of the Direct Selection Tool:
+#### Common Uses of the Direct Selection Tool:
 
 * **Refining Shapes:** After drawing a basic shape, use the Direct Selection tool to fine-tune its curves and points.
 * **Correcting Imperfections:** Fix jagged lines or adjust misaligned points.
@@ -557,18 +557,18 @@ You can select the Pen tool in the toolbar by clicking its icon, which looks lik
 ![image](https://github.com/user-attachments/assets/ef2fe085-97c4-4480-bc95-b3dfbe0e157e)
 
 
-### What the Pen Tool Does:
+#### What the Pen Tool Does:
 
 The Pen tool creates **anchor points** connected by **paths (segments)**. These paths can be straight lines or smooth curves. Unlike freehand drawing tools (like the Pencil or Blob Brush), the Pen tool gives you absolute control over the shape and curvature of every segment by manipulating its anchor points and associated **direction handles (Bézier handles)**.
 
-### Types of Anchor Points Created:
+#### Types of Anchor Points Created:
 
 The Pen tool primarily creates two types of anchor points:
 
 1.  **Corner Points:** These create sharp, abrupt changes in direction. When you click with the Pen tool without dragging, you create a corner point.
 2.  **Smooth Points:** These create smooth, continuous curves. When you click and drag with the Pen tool, you create a smooth point, and direction handles appear.
 
-### How to Use the Pen Tool:
+#### How to Use the Pen Tool:
 
 **1. Drawing Straight Lines:**
 
@@ -605,7 +605,7 @@ This is where the Pen tool gets really powerful and precise.
 * **Move Anchor Points:** While drawing, if you need to reposition the *last* anchor point you placed, hold down `Ctrl` (Cmd on Mac). Your cursor will temporarily switch to the Direct Selection tool (white arrow), allowing you to drag that point. Release `Ctrl/Cmd` to return to the Pen tool.
 * **Adjust Direction Handles:** While drawing a curve, hold down `Ctrl` (Cmd on Mac) to temporarily switch to the Direct Selection tool. You can then click and drag the direction handles of the *last* anchor point to refine the curve's shape before placing the next point.
 
-### Nested Pen Tools (Click and hold the Pen Tool icon):
+#### Nested Pen Tools (Click and hold the Pen Tool icon):
 
 * **Add Anchor Point Tool (`+`):** Adds a new anchor point to an existing path.
 * **Delete Anchor Point Tool (`-`):** Deletes an existing anchor point from a path.
@@ -614,7 +614,7 @@ This is where the Pen tool gets really powerful and precise.
     * Click a corner point and drag to convert it to a smooth point (pulling out handles).
     * Drag one direction handle of a smooth point independently to break its connection, creating a corner point with handles.
 
-### Tips for Mastering the Pen Tool:
+#### Tips for Mastering the Pen Tool:
 
 * **Less is More:** Aim for the fewest anchor points possible to define a shape. Fewer points mean smoother curves and easier editing.
 * **Practice:** The Pen tool has a learning curve. Practice by tracing simple shapes, then more complex ones.
@@ -624,3 +624,56 @@ This is where the Pen tool gets really powerful and precise.
 * **Keyboard Shortcuts:** Learn `Ctrl/Cmd` for temporary Direct Selection, `Alt/Option` for handle manipulation, `+` for adding points, `-` for deleting points, and `Shift + C` for the Anchor Point tool.
 
 The Pen tool is foundational to creating high-quality, scalable vector graphics in Illustrator. Once you get the hang of it, you'll find it indispensable for any serious design work.
+
+### The **Curvature tool** i
+Modern and intuitive alternative to the Pen tool for creating smooth, flowing curves. Introduced to make path drawing easier, especially for beginners, it allows you to create and edit paths with curves without manually manipulating Bézier handles.
+
+You can find the Curvature tool in the toolbar. It's often nested under the Pen tool or visible directly. Its icon looks like a curved line with a dot in the middle. The keyboard shortcut for the Curvature tool is **`Shift + ~` (tilde key, usually next to 1)**, though it can also be accessed by pressing `P` (Pen tool) and then `Shift + ~` to cycle to it if it's nested.
+
+
+
+#### What the Curvature Tool Does:
+
+The Curvature tool simplifies path creation by automatically creating smooth curves as you place anchor points. It intelligently infers the curvature based on the position of your clicks, eliminating the need to drag out direction handles.
+
+#### How to Use the Curvature Tool:
+
+1.  **Creating Smooth Curves:**
+    * **Click once** to place your first anchor point.
+    * **Click again** to place a second anchor point. Illustrator will automatically draw a straight line between them.
+    * **Click a third time (and subsequent times):** As you place the third point, Illustrator will automatically create a smooth curve that passes through all three points, intelligently adjusting the curve as you add more. You'll see the curve form in real-time as you move your mouse.
+    * Continue clicking to add more smooth points and create flowing curves.
+
+2.  **Creating Corner Points (Sharp Angles):**
+    * By default, the Curvature tool creates smooth points. To create a corner point:
+        * While drawing, **double-click** to place an anchor point. This creates a sharp corner point.
+        * Alternatively, hold down **`Alt` (Option on Mac)** and click to place a corner point.
+        * You can also double-click on an *existing smooth anchor point* to convert it into a corner point, or double-click an existing corner point to convert it back to a smooth point.
+
+3.  **Editing Existing Paths with the Curvature Tool:**
+
+    The Curvature tool is also excellent for modifying paths after they've been drawn.
+
+    * **Move Anchor Points:** Click and drag an existing anchor point to reposition it. The surrounding curves will automatically adjust.
+    * **Add Anchor Points:** Hover over a path segment. A small "+" sign will appear next to the cursor. Click the path to add a new anchor point. Illustrator will automatically smooth the curve around this new point.
+    * **Delete Anchor Points:** Click to select an anchor point, then press `Delete` (Backspace on Windows) or `Cmd/Ctrl + Delete`. The path will automatically re-curve smoothly between the remaining points.
+    * **Convert Anchor Points:**
+        * **Double-click** on a smooth anchor point to convert it to a corner point.
+        * **Double-click** on a corner anchor point to convert it to a smooth point.
+
+4.  **Closing a Path:**
+    * To close a path and form a shape, hover over the first anchor point you created until a small circle appears next to the cursor. Click to close the path.
+
+#### Advantages of the Curvature Tool:
+
+* **Intuitive for Curves:** It's much easier for beginners to draw complex curves without struggling with Bézier handles.
+* **Faster for Smooth Shapes:** You can quickly block out organic shapes and flowing lines.
+* **Dynamic Editing:** Paths automatically re-curve when you move, add, or delete anchor points.
+* **Combined Functionality:** It combines the ability to draw and edit paths within a single tool, reducing tool switching.
+
+#### When to Use the Curvature Tool vs. Pen Tool:
+
+* **Curvature Tool:** Ideal for organic, flowing shapes, smooth illustrations, character design, and situations where you want to minimize manual handle adjustments. It's often faster for a more "sketchy" or "painterly" vector feel.
+* **Pen Tool:** Essential for highly precise, geometric shapes, logos with specific angles, intricate technical drawings, or when you need absolute control over every curve and corner through direct manipulation of Bézier handles. Mastering the Pen tool is still crucial for professional vector work, but the Curvature tool offers a great alternative for many tasks.
+
+The Curvature tool is a fantastic addition to Illustrator's toolkit, making vector drawing more accessible and efficient for many design tasks, especially those focused on smooth, continuous lines.
