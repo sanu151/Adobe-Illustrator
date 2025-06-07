@@ -625,11 +625,12 @@ This is where the Pen tool gets really powerful and precise.
 
 The Pen tool is foundational to creating high-quality, scalable vector graphics in Illustrator. Once you get the hang of it, you'll find it indispensable for any serious design work.
 
-### The **Curvature tool** i
+### The **Curvature tool**
 Modern and intuitive alternative to the Pen tool for creating smooth, flowing curves. Introduced to make path drawing easier, especially for beginners, it allows you to create and edit paths with curves without manually manipulating Bézier handles.
 
 You can find the Curvature tool in the toolbar. It's often nested under the Pen tool or visible directly. Its icon looks like a curved line with a dot in the middle. The keyboard shortcut for the Curvature tool is **`Shift + ~` (tilde key, usually next to 1)**, though it can also be accessed by pressing `P` (Pen tool) and then `Shift + ~` to cycle to it if it's nested.
 
+![image](https://github.com/user-attachments/assets/0e44a6da-ae98-402a-a8fc-c662a531295f)
 
 
 #### What the Curvature Tool Does:
@@ -677,3 +678,67 @@ The Curvature tool simplifies path creation by automatically creating smooth cur
 * **Pen Tool:** Essential for highly precise, geometric shapes, logos with specific angles, intricate technical drawings, or when you need absolute control over every curve and corner through direct manipulation of Bézier handles. Mastering the Pen tool is still crucial for professional vector work, but the Curvature tool offers a great alternative for many tasks.
 
 The Curvature tool is a fantastic addition to Illustrator's toolkit, making vector drawing more accessible and efficient for many design tasks, especially those focused on smooth, continuous lines.
+
+
+### The **Shape Builder tool**
+
+It is an incredibly powerful and intuitive tool for combining, subtracting, and dividing overlapping shapes. It revolutionized how designers interact with and modify complex vector artwork, offering a much more direct and visual approach than older methods like Pathfinder operations.
+
+You can find the Shape Builder tool in the toolbar. Its icon looks like two overlapping circles with a small arrow. The keyboard shortcut for the Shape Builder tool is **`Shift + M`**.
+
+![image](https://github.com/user-attachments/assets/d9889e08-1ef7-4fe6-ae92-e6346f505f56)
+
+
+#### What the Shape Builder Tool Does:
+
+The Shape Builder tool allows you to:
+
+1.  **Combine Shapes:** Merge overlapping areas of selected shapes into a single, unified shape.
+2.  **Subtract Shapes:** Remove overlapping areas from selected shapes.
+3.  **Divide Shapes:** Separate overlapping areas into distinct, new shapes.
+4.  **Extract Overlapping Portions:** Isolate only the overlapping parts of shapes.
+
+Essentially, it lets you "draw" new shapes by intuitively clicking and dragging across the intersections of existing, selected objects.
+
+#### How to Use the Shape Builder Tool:
+
+The core principle involves **selecting** the overlapping shapes first, then using the Shape Builder tool.
+
+**Step 1: Select Your Objects**
+* Using the **Selection Tool (V)**, select all the shapes you want to work with. The Shape Builder tool will only affect the currently selected objects.
+
+**Step 2: Activate the Shape Builder Tool**
+* Click the Shape Builder tool icon in the toolbar, or press **`Shift + M`**.
+
+**Step 3: Perform Operations**
+
+Once the tool is active and you hover over your selected, overlapping shapes, you'll see different areas highlight.
+
+* **To Combine/Merge Shapes (Add Mode):**
+    * By default, the tool is in "Add" mode (your cursor will have a `+` sign).
+    * **Click and drag** across the areas you want to combine. As you drag, a dotted line will appear, indicating the areas that will merge.
+    * Release the mouse button, and the selected areas will merge into one new shape.
+    * You can also simply **click** on an area you want to combine if it's already completely enclosed by other selected shapes.
+
+* **To Subtract/Remove Shapes (Subtract Mode):**
+    * Hold down **`Alt` (Option on Mac)**. Your cursor will change from a `+` sign to a `-` (minus) sign.
+    * While holding `Alt/Option`, **click** on the area you want to delete.
+    * Alternatively, you can **click and drag** across multiple areas you want to remove.
+    * Release `Alt/Option` and the mouse button, and those areas will be subtracted.
+
+* **To Divide/Separate Shapes (Creating New Shapes from Overlaps):**
+    * Simply **click** on any isolated overlapping area that isn't connected to other areas you're dragging across.
+    * This will create a new, separate shape from that specific overlapping region. You can then select and move it with the Selection Tool (V).
+
+#### Key Features and Tips:
+
+* **Highlighting:** As you hover over the overlapping regions, Illustrator will highlight potential new shapes or areas that can be modified, giving you a visual preview.
+* **Live Interaction:** The tool is very interactive. You see the changes as you drag and click, making it easy to experiment.
+* **Stroke and Fill:** The resulting shapes will inherit the fill and stroke attributes of the original shapes you're combining or subtracting from. You can also pick new colors while using the tool:
+    * Hold **`Alt` (Option on Mac)** and use the scroll wheel on your mouse to cycle through the swatches in your Swatches panel.
+    * You can also click on a fill color in your Swatches panel (or Properties panel) before using the tool, and newly created shapes will take on that color.
+* **Gaps:** If your shapes aren't perfectly aligned or have very tiny gaps, the Shape Builder tool might not work as expected. Ensure your shapes are truly overlapping for best results. You might need to zoom in and adjust.
+* **Pathfinder Alternative:** While the Pathfinder panel (`Window > Pathfinder`) offers similar combine/subtract operations, the Shape Builder tool is often preferred for its direct, intuitive visual interaction, especially when dealing with complex overlaps. It's often quicker than applying Pathfinder operations one by one.
+* **Expand:** If you're working with Live Paint groups or other live effects, you might need to "Expand" the objects (`Object > Expand`) before using the Shape Builder tool for it to work correctly.
+
+The Shape Builder tool is an indispensable part of a modern Illustrator workflow, simplifying complex shape manipulation and allowing for rapid iteration and design creation.
