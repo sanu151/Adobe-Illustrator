@@ -742,3 +742,87 @@ Once the tool is active and you hover over your selected, overlapping shapes, yo
 * **Expand:** If you're working with Live Paint groups or other live effects, you might need to "Expand" the objects (`Object > Expand`) before using the Shape Builder tool for it to work correctly.
 
 The Shape Builder tool is an indispensable part of a modern Illustrator workflow, simplifying complex shape manipulation and allowing for rapid iteration and design creation.
+
+
+### Strokes
+
+![image](https://github.com/user-attachments/assets/89898eef-90e2-471a-b5c0-b1412eb81c84)
+
+
+#### What is a Stroke?
+
+In Illustrator, a **stroke** is the visible outline or border of a path or shape. Every path (whether open like a line or closed like a circle) can have a stroke applied to it. Strokes have various properties that can be adjusted to create a wide range of visual effects.
+
+#### Accessing Stroke Options:
+
+You can control stroke properties from several places:
+
+1.  **Properties Panel:** (Most common and convenient) When a path or shape is selected, the "Properties" panel (usually on the right side) will display a "Stroke" section where you can adjust most attributes.
+2.  **Stroke Panel:** (`Window > Stroke` or `Ctrl/Cmd + F10`) This dedicated panel provides the most detailed controls for strokes.
+3.  **Control Panel:** (Top of the workspace, below the menu bar) When a path is selected, a simplified "Stroke" section often appears here.
+4.  **Toolbar:** The bottom part of the toolbar shows the current Fill and Stroke colors. The stroke box is the one with the hollow square outline. Clicking it brings the stroke to the foreground, meaning any color changes will apply to the stroke.
+
+#### Key Stroke Properties:
+
+![image](https://github.com/user-attachments/assets/57a6579c-7640-44fc-b141-3dabc8c370dd)
+
+
+1.  **Color:**
+    * Click the stroke color box in the Properties, Stroke, or Control panel to open the Color Picker or Swatches panel.
+    * You can choose solid colors, gradients, or even patterns for your stroke.
+    * **Keyboard Shortcut:** `Shift + X` swaps the fill and stroke colors. Pressing `/` (forward slash) sets the stroke to "None" (no stroke).
+
+2.  **Weight (Thickness):**
+    * This determines how thick the stroke is. Measured in **points (pt)** by default.
+    * You can enter a numerical value or use the up/down arrows in the Stroke panel or Properties panel.
+    * Commonly accessed from the dropdown in the Properties/Control panel.
+
+3.  **Cap:** (Controls the appearance of open path endpoints)
+    * **Butt Cap:** Creates a sharp, blunt end that stops exactly at the end of the path.
+    * **Round Cap:** Creates a rounded end that extends half the stroke weight beyond the end of the path.
+    * **Projecting Cap:** Creates a square end that extends half the stroke weight beyond the end of the path, giving it a more squared-off look than Butt Cap.
+
+4.  **Corner (Join):** (Controls the appearance of path corners/bends)
+    * **Miter Join:** Creates a sharp corner. The "Miter Limit" (explained below) controls how far the point extends.
+    * **Round Join:** Creates a rounded corner.
+    * **Bevel Join:** Creates a flat, squared-off corner.
+
+5.  **Align Stroke (only for closed paths):** (Controls where the stroke aligns relative to the path)
+    * **Align Stroke to Center (default):** The stroke is centered on the path. Half the stroke weight is on one side, half on the other.
+    * **Align Stroke to Inside:** The entire stroke is drawn *inside* the path.
+    * **Align Stroke to Outside:** The entire stroke is drawn *outside* the path.
+
+6.  **Dashed Line:**
+    * Check the "Dashed Line" box in the Stroke panel to activate.
+    * You can then specify **"Dash"** and **"Gap"** values. Enter multiple pairs (e.g., `12 pt Dash`, `6 pt Gap`, `2 pt Dash`, `8 pt Gap`) to create complex dashed patterns.
+    * **Dash options for corners/caps:**
+        * **Aligns dashes to corners and path ends:** Ensures consistent dashes even around sharp corners.
+        * **Preserves exact dash and gap lengths:** Maintains the exact lengths, which might lead to uneven spacing around corners.
+
+7.  **Arrowheads:**
+    * You can add arrowheads or tails to either end of an open path.
+    * Choose from a wide variety of preset arrowheads and adjust their **Scale**.
+    * **Swap Start and End Arrowheads:** A button to reverse the order.
+
+8.  **Profile (Width Profile):**
+    * Applies a variable width profile to the stroke, making it thicker or thinner at different points along the path.
+    * Choose from preset profiles (e.g., tapering, bulging).
+    * You can also create custom width profiles using the **Width tool (`Shift + W`)**.
+
+9.  **Miter Limit:**
+    * This applies specifically to **Miter Joins**.
+    * It defines the ratio of the miter length to the stroke weight. If the miter length (the length of the point that extends from the corner) exceeds this ratio, the corner will be automatically beveled instead of sharp.
+    * A common default is 10. Lower values make corners bevel more easily, higher values allow sharper points.
+
+#### Tools Directly Related to Strokes:
+
+* **Selection Tool (V):** While not *exclusively* for strokes, the Selection tool allows you to select objects and then adjust their stroke properties in the Properties panel, Control panel, or Stroke panel.
+* **Direct Selection Tool (A):** If you've outlined a stroke (`Object > Path > Outline Stroke`), the Direct Selection tool allows you to manipulate the resulting shape's individual points and segments.
+* **Width Tool (Shift + W):** This tool is *specifically* for manipulating the width of a stroke along its path, creating variable-width strokes.
+* **Eyedropper Tool (I):** You can use the Eyedropper to sample the stroke attributes (color, weight, cap, corner, etc.) from one object and apply them to another.
+* **Brush Tools (Paintbrush Tool (B), Blob Brush Tool (Shift + B)):** These tools *create* paths *with* strokes, and the type of brush you choose significantly affects the stroke's appearance.
+* **Scissors Tool (C):** You can use the Scissors tool to cut a stroked path, creating two open paths, each retaining the original stroke attributes.
+* **Knife Tool:** Similar to the Scissors tool, the Knife tool cuts a stroked path, but with a freehand cut.
+* **Appearance Panel (Window > Appearance or Shift + F6):** While not a tool *per se*, the Appearance panel is crucial. It lets you apply *multiple* strokes to a single object, stack strokes, apply effects *to* strokes, and control the order in which strokes are drawn relative to fills.
+* **Object > Path > Outline Stroke:** This command converts a stroke into a filled shape. This is useful when you want to apply a gradient to a stroke, use the Shape Builder tool on a stroke, or ensure the stroke appearance remains consistent regardless of scaling or output resolution.
+
