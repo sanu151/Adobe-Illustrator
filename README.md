@@ -765,7 +765,7 @@ You can control stroke properties from several places:
 #### Key Stroke Properties:
 
 |  ![image](https://github.com/user-attachments/assets/57a6579c-7640-44fc-b141-3dabc8c370dd)  |  ![image](https://github.com/user-attachments/assets/8bb7e376-634d-4776-9b9e-665fa72b5d07)  |
-
+|:--------------------------------------------------------------|:-----------------------------------------------------|
 
 1.  **Color:**
     * Click the stroke color box in the Properties, Stroke, or Control panel to open the Color Picker or Swatches panel.
