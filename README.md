@@ -143,7 +143,6 @@ The image displays the standard vertical layout of the Illustrator toolbar. Tool
 
 ### The **Shift key** 
 
-![image](https://github.com/user-attachments/assets/8a4defef-5476-4d0b-ad7b-77495a90e9ea)
 
 One of the most frequently used modifier keys in Adobe Illustrator, dramatically expanding the functionality of many tools and actions. It's essential for achieving precision, consistency, and efficiency in your workflow.
 
@@ -197,7 +196,6 @@ In essence, the Shift key in Adobe Illustrator acts as a **precision modifier** 
 
 ### The **Ctrl key (Command key on Mac)** 
 
-![image](https://github.com/user-attachments/assets/96f8b2e2-f3e4-4578-8aee-0a3bab92ea02)
 
 Is another powerhouse modifier, similar to the Shift key, but often used for different types of actions, particularly those related to **menus, commands, and visibility**. Mastering its use is fundamental for efficient workflow.
 
@@ -271,7 +269,6 @@ The Ctrl (Cmd) key, like Shift, is fundamental to mastering Illustrator. Regular
 
 ### The **Alt key (Option key on Mac)** 
 
-![image](https://github.com/user-attachments/assets/3602e186-8ebb-4ed5-b3a0-e0cd7940596c)
 
 Is another incredibly powerful modifier, often used for **duplication, creating symmetrical effects, accessing alternative tool functions, and precise transformations.** It's a cornerstone for efficient and creative work in Illustrator.
 
@@ -429,7 +426,6 @@ One of the most fundamental and frequently used tools. It's the primary way you 
 
 You can select the Selection tool in the toolbar by clicking its icon, which looks like a **solid black arrow**. Its keyboard shortcut is simply the letter **`V`**.
 
-![image](https://github.com/user-attachments/assets/f4da7105-bbe9-4160-87ec-1b3555267a1c)
 
 
 Here's a breakdown of what the Selection tool does and how to use it effectively:
@@ -499,7 +495,6 @@ It's a critically important tool, particularly for precision editing and refinin
 
 You can select the Direct Selection tool in the toolbar by clicking its icon, which looks like a **hollow white arrow**. Its keyboard shortcut is the letter **`A`**.
 
-![image](https://github.com/user-attachments/assets/e31c5ead-18b7-41db-a376-db5f618e06a5)
 
 
 Here's a detailed breakdown of what the Direct Selection tool does and how to use it effectively:
@@ -553,8 +548,6 @@ The Direct Selection tool is indispensable for achieving precise control over yo
 Arguably the most powerful and precise drawing tool, and often considered the *heart* of vector illustration. While it has a reputation for being challenging for beginners, mastering it unlocks unparalleled control over creating crisp, editable vector paths.
 
 You can select the Pen tool in the toolbar by clicking its icon, which looks like a **fountain pen nib**. Its keyboard shortcut is the letter **`P`**.
-
-![image](https://github.com/user-attachments/assets/ef2fe085-97c4-4480-bc95-b3dfbe0e157e)
 
 
 #### What the Pen Tool Does:
@@ -630,8 +623,6 @@ Modern and intuitive alternative to the Pen tool for creating smooth, flowing cu
 
 You can find the Curvature tool in the toolbar. It's often nested under the Pen tool or visible directly. Its icon looks like a curved line with a dot in the middle. The keyboard shortcut for the Curvature tool is **`Shift + ~` (tilde key, usually next to 1)**, though it can also be accessed by pressing `P` (Pen tool) and then `Shift + ~` to cycle to it if it's nested.
 
-![image](https://github.com/user-attachments/assets/0e44a6da-ae98-402a-a8fc-c662a531295f)
-
 
 #### What the Curvature Tool Does:
 
@@ -685,8 +676,6 @@ The Curvature tool is a fantastic addition to Illustrator's toolkit, making vect
 It is an incredibly powerful and intuitive tool for combining, subtracting, and dividing overlapping shapes. It revolutionized how designers interact with and modify complex vector artwork, offering a much more direct and visual approach than older methods like Pathfinder operations.
 
 You can find the Shape Builder tool in the toolbar. Its icon looks like two overlapping circles with a small arrow. The keyboard shortcut for the Shape Builder tool is **`Shift + M`**.
-
-![image](https://github.com/user-attachments/assets/d9889e08-1ef7-4fe6-ae92-e6346f505f56)
 
 
 #### What the Shape Builder Tool Does:
@@ -746,8 +735,6 @@ The Shape Builder tool is an indispensable part of a modern Illustrator workflow
 
 ### Strokes
 
-![image](https://github.com/user-attachments/assets/89898eef-90e2-471a-b5c0-b1412eb81c84)
-
 
 #### What is a Stroke?
 
@@ -764,8 +751,6 @@ You can control stroke properties from several places:
 
 #### Key Stroke Properties:
 
-|  ![image](https://github.com/user-attachments/assets/57a6579c-7640-44fc-b141-3dabc8c370dd)  |  ![image](https://github.com/user-attachments/assets/8bb7e376-634d-4776-9b9e-665fa72b5d07)  |
-|:--------------------------------------------------------------|:-----------------------------------------------------|
 
 1.  **Color:**
     * Click the stroke color box in the Properties, Stroke, or Control panel to open the Color Picker or Swatches panel.
